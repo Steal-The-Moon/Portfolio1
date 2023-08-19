@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    background-color: #1c1d25;
+    }
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+li {
+   /*  width: 200px; */
+    text-decoration: none;
+}
+h1{
+    font-size: 90px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.sub-text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    margin: 80px;
+    margin-bottom: 200px;
+}
+.button{
+    width: 210px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.button:hover {
+    background-color: darkgray;
+    color: #080808;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.m-logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80pxs;
+}
+
+.sub-section-alternitive {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 350px;
+}
+
+.headshot-container {
+    display: flex;
+}
+
+.project-card {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px ;
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+.information {
+    color: white;
+}
